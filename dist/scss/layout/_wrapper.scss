@@ -1,0 +1,8 @@
+.wrapper {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 6fr;
+    grid-template-areas:
+        "header header"
+        "side-nav content";
+}
